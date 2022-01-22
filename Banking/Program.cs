@@ -7,7 +7,7 @@ namespace Banking {
             var sav1 = new Savings() {
                 Id = 200, Description = "1st Savings"
             };
-            sav1.Deposit(100);
+            sav1.Deposit(100); 
             sav1.CalculateAndPayInterest(1);
             Console.WriteLine(sav1);
             sav1.CalculateAndPayInterest(1);
